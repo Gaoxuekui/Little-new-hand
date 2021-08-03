@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-	char ch = 'A';//char字符类型
-	printf("%c",ch);//%--打印字符格式的数据
+	long num = 100;
+	//int age = 20;
+	printf("%d\n",num);//%d--打印整型十进制的数据
 	return 0;
 }
